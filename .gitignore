@@ -1,0 +1,92 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+hs_err_pid*
+*.hprof
+dump_*.txt
+
+# IDEs
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+.cursor/
+
+# Secrets and local env
+.env
+*.env
+**/.env
+**/.env.*
+*.pem
+*.p8
+*.p12
+secrets/
+credentials.json
+
+# Signing — never upload
+**/*.jks
+**/*.jks.bak
+**/*.keystore
+key.properties
+**/key.properties
+keystore.properties
+signing.properties
+google-services.json
+# android/key.properties.example is a blank template and should be committed.
+
+# Local dumps and exports
+*.backup.json
+*backup*.json
+spectrumwhisper_export*.json
+spectrumwhisper_backup*.json
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+coverage/
+**/doc/api/
+app.*.symbols
+app.*.map.json
+
+# Android
+**/android/**/GeneratedPluginRegistrant.java
+**/android/local.properties
+android/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+.gradle/
+**/.gradle/
+.kotlin/
+**/.kotlin/
+.cxx/
+**/.cxx/
+captures/
+**/captures/
+build/
+**/build/
+
+# Packages and installers
+*.apk
+*.aab
+*.apk.sha1
+*.ipa
+*.dSYM.zip
+*.dSYM
